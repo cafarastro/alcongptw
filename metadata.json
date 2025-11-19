@@ -1,0 +1,7 @@
+{
+  "name": "EventFrame AI Mixer",
+  "description": "Carregue uma selfie, escolha uma moldura de celebração e crie sua postagem para o evento corporativo.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
