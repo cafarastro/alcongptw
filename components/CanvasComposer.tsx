@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
-import { Frame } from '../types';
-import { Button } from './Button';
+import { Frame } from '../types.ts';
+import { Button } from './Button.tsx';
 
 interface CanvasComposerProps {
   userImageFile: File;

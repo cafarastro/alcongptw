@@ -1,6 +1,6 @@
 import React from 'react';
-import { Frame } from '../types';
-import { FRAMES } from '../constants';
+import { Frame } from '../types.ts';
+import { FRAMES } from '../constants.ts';
 
 interface FrameSelectorProps {
   selectedFrameId: string;

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { AppStep, Frame } from './types';
-import { FRAMES } from './constants';
-import { ImageUploader } from './components/ImageUploader';
-import { FrameSelector } from './components/FrameSelector';
-import { CanvasComposer } from './components/CanvasComposer';
-import { ResultView } from './components/ResultView';
+import { AppStep, Frame } from './types.ts';
+import { FRAMES } from './constants.ts';
+import { ImageUploader } from './components/ImageUploader.tsx';
+import { FrameSelector } from './components/FrameSelector.tsx';
+import { CanvasComposer } from './components/CanvasComposer.tsx';
+import { ResultView } from './components/ResultView.tsx';
 
 const App: React.FC = () => {
   const [step, setStep] = useState<AppStep>(AppStep.UPLOAD);

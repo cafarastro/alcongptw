@@ -1,4 +1,4 @@
-import { Frame } from './types';
+import { Frame } from './types.ts';
 
 export const FRAMES: Frame[] = [
   {

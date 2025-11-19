@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { Button } from './Button';
+import { Button } from './Button.tsx';
 
 interface ImageUploaderProps {
   onImageSelect: (file: File) => void;
